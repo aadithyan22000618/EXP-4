@@ -1,20 +1,22 @@
 # EXP-4
-EXP. NO. 4. 		HALFWAVE  AND FULL WAVE  RECTIFIERS
+## EXP. NO. 4. 		HALFWAVE  AND FULL WAVE  RECTIFIERS
 
-AIM: To study the characteristics of half wave, full wave and bridge rectifier with and without filter and calculate the ripple factor, rectification efficiency and % regulation.
+## AIM: 
+To study the characteristics of half wave, full wave and bridge rectifier with and without filter and calculate the ripple factor, rectification efficiency and % regulation.
 
-COMPONENTS  AND  EQUIPMENT  REQUIRED:  Diodes,  Resistor,  Transformer,  Voltmeter, Ammeter, Breadboard and CRO.
+## COMPONENTS  AND  EQUIPMENT  REQUIRED: 
+Diodes,  Resistor,  Transformer,  Voltmeter, Ammeter, Breadboard and CRO.
 
-THEORY: Rectifier changes ac to dc and it is an essential part of power supply. The unique property of a diode, permitting the current to flow in one direction, is utilised in rectifiers.
+## THEORY: 
+Rectifier changes ac to dc and it is an essential part of power supply. The unique property of a diode, permitting the current to flow in one direction, is utilised in rectifiers.
 
-Half Wave Rectifier
-
+### Half Wave Rectifier
 
 Mains power supply is applied at the primary of the step-down transformer. All the positive half cycles of the stepped down ac supply pass through the diode and all the negative half cycles get eliminated. Peak value of the output voltage is less than the peak value of the input voltage by 0.6V because of the voltage drop across the diode.
 For a half wave rectifier, Vrms = Vm/2 and Vdc = Vm/π: where Vrms = rms value of input, Vdc = Average value of input and Vm = peak value of output.
 
+### Full Wave Rectifier
 
-Full Wave Rectifier
 During the positive half cycle of the transformer secondary voltage, diode     is forward biased and      is reverse biased. So a current flows through the diode     , load resistor      and upper half of the transformer  winding.  During  the  negative  half  cycle,  diode       becomes  forward  biased  and becomes reverse biased. The current then flows through the diode     , load resistor      and lower half of the transformer winding. Current flows through the load resistor in the same direction during both the half cycles. Peak value of the output voltage is less than the peak value of the input voltage by 0.6V
 because of the voltage drop across the diode.
 During the positive half cycle of the secondary voltage, diodes      and      are forward biased and diodes and      are reverse biased. Therefore, current flows through the secondary winding, diode     , load resistor
@@ -23,10 +25,11 @@ All rectifier outputs contain considerable amount of ripple in addition to the D
 
 Capacitor input filter, choke input filter, RC, CRC, LC, and CLC filters are the usually used filters. Capacitor input filter is the simplest and cheapest. A high value capacitor C is connected in shunt with the load resistor     . Capacitor charges to peak voltage      when the half cycle appears at the output. After the peak value is passed, the capacitor discharges through the load resistor slowly since the diode is reverse biased by the capacitor voltage. Before the capacitor voltage drops substantially, next output cycle arrives and the capacitor recharges to peak.
 
-Rectifier Efficiency
+### Rectifier Efficiency
 
 Rectifier efficiency is defined as the ratio of DC output power to the input power from the AC supply. Even with ideal rectifiers with no losses, the efficiency is less than 100% because some of the output power is AC power rather than DC which manifests as ripple superimposed on the DC waveform.
-PROCEDURE:
+
+## PROCEDURE:
 
 1.   Wire up the half wave rectifier circuit without capacitor after testing all the components.
 
@@ -34,35 +37,25 @@ PROCEDURE:
 3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency and %regulation using the expressions. Repeat for different capacitor values.
 4.   Repeat the above steps for full wave and bridge rectifiers.
 
-CIRCUIT DIAGRAMS
+## CIRCUIT DIAGRAMS
+![WhatsApp Image 2025-11-10 at 23 05 12_43292aa5](https://github.com/user-attachments/assets/0d278e69-d277-41c0-902a-1bc42d244548)
 
-Half wave rectifier with filter:
+![WhatsApp Image 2025-11-10 at 23 07 19_fb7e2316](https://github.com/user-attachments/assets/8d66c243-cce8-4585-a77b-85f7e63a0c48)
 
-<img width="1055" height="687" alt="image" src="https://github.com/user-attachments/assets/fa196b27-9e92-4fbd-bf16-2a24932d5156" />
+![WhatsApp Image 2025-11-10 at 23 08 49_7d1069ff](https://github.com/user-attachments/assets/8263059e-3377-4891-86c0-a7e9f2a7ef1a)
 
-Full wave rectifier with filter:
 
-<img width="1008" height="581" alt="image" src="https://github.com/user-attachments/assets/115d37d9-b6af-4e9b-8a8e-5dde6e20161e" />
+### WAVEFORM:
 
-TABULAR COLUMN
-Rectifier without filter
+<img width="1181" height="816" alt="Screenshot 2025-10-29 090745" src="https://github.com/user-attachments/assets/b65d626a-4e6d-450c-b477-036d5a053f45" />
 
-<img width="1523" height="444" alt="image" src="https://github.com/user-attachments/assets/d0a15005-fb8f-4b4c-bf76-f84f07b8d9a8" />
+<img width="1421" height="884" alt="image" src="https://github.com/user-attachments/assets/322cd1f2-765f-4f01-82fb-07d7f48bea15" />
 
-TABULAR COLUMN
-Rectifier with filter
+<img width="1156" height="794" alt="Screenshot 2025-10-29 090810" src="https://github.com/user-attachments/assets/0b92b66c-ca93-402c-8525-72291f1cd2c4" />
 
-<img width="1397" height="300" alt="image" src="https://github.com/user-attachments/assets/c2f8b40f-7e44-4dde-8d14-179d9e6806ef" />
+<img width="1369" height="887" alt="image" src="https://github.com/user-attachments/assets/a3d9b00b-9eae-4df9-9348-33c90066951d" />
 
-WAVEFORM:
-Half wave rectifier with filter:
 
-<img width="758" height="398" alt="image" src="https://github.com/user-attachments/assets/de111d1f-c232-4383-b263-ef309364a63e" />
-
-Full wave rectifier with filter:
-
-<img width="758" height="398" alt="image" src="https://github.com/user-attachments/assets/616e72a8-6d07-4573-9874-55d09b27f0d0" />
-
-RESULT:
+## RESULT:
 
 Input and Output waveforms of a half and full bridge-wave with /without filter are observed and plotted.
